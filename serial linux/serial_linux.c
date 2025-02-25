@@ -101,7 +101,7 @@ int main(int argc, const char** argv) {
   serial_set_blocking(fd, 1);
   if(read_or_write)
     printf("Output e Processi in esecuzione\n");
-  else
+  else	
     printf("Input di lettura\n");
   while(1) {
     char buf[1024];
